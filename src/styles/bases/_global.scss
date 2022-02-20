@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.8rem;
+    font-family: 'PT Serif', serif;;
+    background-color: #f3f5f9;
+    color: #000;
+   
+}
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2.5rem;
+}
+h4{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.8rem;
+}
+a{
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.contenedor-titulo{
+    text-align: center;
+    border-bottom: solid .2rem #000;
+    width: 20rem;
+    margin: 0 auto;
+    h2{
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}

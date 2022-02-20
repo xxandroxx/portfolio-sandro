@@ -1,0 +1,44 @@
+
+
+.contenedor-skillset-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 3rem;
+    margin-top: 5rem;   
+   margin-bottom: 5rem;
+    
+}
+
+.contenido-img-skillset{
+    margin: 0 auto;
+    border: solid .2rem #000;
+    width: 30rem;
+    text-align: center;
+    border-radius: .5rem;
+    background-color: #e5e5e5;
+  
+    padding: 3rem 0;
+    transition: .3s;
+    cursor: pointer;
+
+    h4{
+        font-weight: 700;
+        border-bottom: solid .2rem #000;
+        width: 10rem;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+    
+
+    img{
+        width: 10rem;
+    }
+    
+}
+
+.contenido-img-skillset:hover{
+    transform: scale(1.06);
+    box-shadow: 1.4rem 1.4rem 1.1rem 0.1rem #000;
+}
+
