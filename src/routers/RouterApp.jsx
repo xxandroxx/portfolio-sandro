@@ -38,19 +38,19 @@ export const RouterApp = () => {
             <Route path='/js-portfolio' element={<PortfolioJS />} />
             <Route path='/react-portfolio' element={<PortfolioReact />} />
             <Route path='/Aion-Replica' element={<PortfolioAion />} />
-            <Route path='/Bienes-Raices' element={<PortfolioBr />} />
-            <Route path='/Cafe' element={<PortfolioCafe />} />
+            <Route path='/Real-Estate' element={<PortfolioBr />} />
+            <Route path='/coffee' element={<PortfolioCafe />} />
             <Route path='/Ecommerce' element={<PortfolioEcommerce />} />
             <Route path='/Freelancer' element={<PortfolioFreeLance />} />
-            <Route path='/Juego' element={<PortfolioJuego />} />
-            <Route path='/Manga' element={<PortfolioManga />} />
+            <Route path='/Game' element={<PortfolioJuego />} />
+            <Route path='/Comic' element={<PortfolioManga />} />
             <Route path='/OSPJ' element={<PortfolioOSPJ />} />
             <Route path='/Gifs' element={<PortfolioGifs />} />
             <Route path='/Cripto' element={<PortfolioCripto />} />
-            <Route path='/Calendario' element={<PortfolioCalendario />} />
-            <Route path='/Gastos' element={<PortfolioGastos />} />
-            <Route path='/Todo' element={<PortfolioTodo />} />
-            <Route path='/Vet' element={<PortfolioVet />} />
+            <Route path='/Calendar' element={<PortfolioCalendario />} />
+            <Route path='/Expense-Control' element={<PortfolioGastos />} />
+            <Route path='/To-Do' element={<PortfolioTodo />} />
+            <Route path='/Appointment-Scheduling' element={<PortfolioVet />} />
             <Route path='*' element={<Navigate to='/' />} />
         </Route>
     </Routes>

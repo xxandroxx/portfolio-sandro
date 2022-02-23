@@ -12,7 +12,7 @@ export const PortfolioBr = () => {
             <div className='contenedor-imgs-portfolio'>
 
                 {
-                    objetoImgPortfolioJs.filter(img => img.title === 'Bienes-Raices').map(filtered => (
+                    objetoImgPortfolioJs.filter(img => img.title === 'Real-Estate').map(filtered => (
 
                         <div key={filtered.id} className='contenido-portfolio-js'>
                             <img className='animate__animated animate__fadeInLeft' src={filtered.img} alt={filtered.name} />

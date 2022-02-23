@@ -14,7 +14,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 4rem;
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
     margin-top: 5rem;
 
     a{
@@ -54,6 +54,7 @@
     margin: 0 auto;
     border-radius: .5rem;
     border: solid .2rem rgb(145, 144, 144);
+    margin-bottom: 5rem;
     
     p{
         margin: 0;

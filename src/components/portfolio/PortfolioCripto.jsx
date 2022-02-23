@@ -6,7 +6,7 @@ export const PortfolioCripto = () => {
   return (
     <div className='contenedor'>
     <div className='contenedor-titulo contenedor-titulo-aion'>
-        <h2>Get Gifs</h2>
+        <h2>API Cripto</h2>
     </div>
 
     <div className='contenedor-imgs-portfolio'>

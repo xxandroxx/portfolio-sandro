@@ -6,7 +6,7 @@ export const PortfolioOSPJ = () => {
   return (
     <div className='contenedor'>
     <div className='contenedor-titulo contenedor-titulo-aion'>
-        <h2>Freelancer</h2>
+        <h2>OSPJ-Group</h2>
     </div>
 
     <div className='contenedor-imgs-portfolio'>

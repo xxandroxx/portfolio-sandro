@@ -6,13 +6,13 @@ export const PortfolioManga = () => {
   return (
     <div className='contenedor'>
     <div className='contenedor-titulo contenedor-titulo-aion'>
-        <h2>Freelancer</h2>
+        <h2>Comic Site</h2>
     </div>
 
     <div className='contenedor-imgs-portfolio'>
 
         {
-            objetoImgPortfolioJs.filter(img => img.title === 'Manga').map(filtered => (
+            objetoImgPortfolioJs.filter(img => img.title === 'Comic').map(filtered => (
 
                 <div key={filtered.id} className='contenido-portfolio-js'>
                     <img className='animate__animated animate__fadeInLeft' src={filtered.img} alt={filtered.name} />

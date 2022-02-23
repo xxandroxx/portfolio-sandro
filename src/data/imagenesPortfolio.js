@@ -106,56 +106,56 @@ export const objetoImgPortfolioJs = [
         id: 6,
         img: Br1,
         name: 'Br-1',
-        title: 'Bienes-Raices',
+        title: 'Real-Estate',
         number: 1
     },
     {
         id: 7,
         img: Br2,
         name: 'Br-2',
-        title: 'Bienes-Raices',
+        title: 'Real-Estate',
        
     },
     {
         id: 8,
         img: Br3,
         name: 'Br-3',
-        title: 'Bienes-Raices',
+        title: 'Real-Estate',
         
     },
     {
         id: 9,
         img: Br4,
         name: 'Br-4',
-        title: 'Bienes-Raices',
+        title: 'Real-Estate',
         
     },
     {
         id: 10,
         img: Cafe1,
         name: 'Cafe-1',
-        title: 'Cafe',
+        title: 'coffee',
         number: 1
     },
     {
         id: 11,
         img: Cafe2,
         name: 'Cafe-2',
-        title: 'Cafe',
+        title: 'coffee',
      
     },
     {
         id: 12,
         img: Cafe3,
         name: 'Cafe-3',
-        title: 'Cafe',
+        title: 'coffee',
       
     },
     {
         id: 13,
         img: Cafe4,
         name: 'Cafe-4',
-        title: 'Cafe',
+        title: 'coffee',
       
     },
     {
@@ -218,63 +218,63 @@ export const objetoImgPortfolioJs = [
         id: 22,
         img: Juego1,
         name: 'Juego-1',
-        title: 'Juego',
+        title: 'Game',
         number: 1
     },
     {
         id: 23,
         img: Juego2,
         name: 'Juego-2',
-        title: 'Juego',
+        title: 'Game',
     
     },
     {
         id: 24,
         img: Juego3,
         name: 'Juego-3',
-        title: 'Juego',
+        title: 'Game',
       
     },
     {
         id: 25,
         img: Juego4,
         name: 'Juego-4',
-        title: 'Juego',
+        title: 'Game',
      
     },
     {
         id: 26,
         img: Juego5,
         name: 'Juego-5',
-        title: 'Juego',
+        title: 'Game',
     
     },
     {
         id: 27,
         img: Juego6,
         name: 'Juego-6',
-        title: 'Juego',
+        title: 'Game',
       
     },
     {
         id: 28,
         img: Manga1,
         name: 'Manga-1',
-        title: 'Manga',
+        title: 'Comic',
         number: 1
     },
     {
         id: 29,
         img: Manga2,
         name: 'Manga-2',
-        title: 'Manga',
+        title: 'Comic',
       
     },
     {
         id: 30,
         img: Manga3,
         name: 'Manga-3',
-        title: 'Manga',
+        title: 'Comic',
       
     },
     {
@@ -361,118 +361,118 @@ export const objetoImgPortfolioReact = [
         id: 9,
         img: Calendario1,
         name: 'Calendario-1',
-        title: 'Calendario',
+        title: 'Calendar',
         number: 1
     },
     {
         id: 10,
         img: Calendario2,
         name: 'Calendario-2',
-        title: 'Calendario'
+        title: 'Calendar'
     },
     {
         id: 11,
         img: Calendario3,
         name: 'Calendario-3',
-        title: 'Calendario'
+        title: 'Calendar'
     },
     {
         id: 12,
         img: Calendario4,
         name: 'Calendario-4',
-        title: 'Calendario'
+        title: 'Calendar'
     },
     {
         id: 13,
         img: Gastos1,
         name: 'Gastos-1',
-        title: 'Gastos',
+        title: 'Expense-Control',
         number: 1
     },
     {
         id: 14,
         img: Gastos2,
         name: 'Gastos-2',
-        title: 'Gastos'
+        title: 'Expense-Control'
     },
     {
         id: 15,
         img: Gastos3,
         name: 'Gastos-3',
-        title: 'Gastos'
+        title: 'Expense-Control'
     },
     {
         id: 16,
         img: Gastos4,
         name: 'Gastos-4',
-        title: 'Gastos'
+        title: 'Expense-Control'
     },
     {
         id: 17,
         img: Gastos5,
         name: 'Gastos-5',
-        title: 'Gastos'
+        title: 'Expense-Control'
     },
     {
         id: 18,
         img: Gastos6,
         name: 'Gastos-6',
-        title: 'Gastos'
+        title: 'Expense-Control'
     },
     {
         id: 19,
         img: Gastos7,
         name: 'Gastos-7',
-        title: 'Gastos'
+        title: 'Expense-Control'
     },
     {
         id: 20,
         img: Todo1,
         name: 'Todo-1',
-        title: 'Todo',
+        title: 'To-Do',
         number: 1
     },
     {
         id: 21,
         img: Todo2,
         name: 'Todo-2',
-        title: 'Todo',
+        title: 'To-Do',
     },
     {
         id: 22,
         img: Todo3,
         name: 'Todo-3',
-        title: 'Todo',
+        title: 'To-Do',
     },
     {
         id: 23,
         img: Todo4,
         name: 'Todo-4',
-        title: 'Todo',
+        title: 'To-Do',
     },
     {
         id: 24,
         img: Vet1,
         name: 'Vet-1',
-        title: 'Vet',
+        title: 'Appointment-Scheduling',
         number: 1
     },
     {
         id: 25,
         img: Vet2,
         name: 'Vet-2',
-        title: 'Vet'
+        title: 'Appointment-Scheduling'
     },
     {
         id: 26,
         img: Vet3,
         name: 'Vet-3',
-        title: 'Vet'
+        title: 'Appointment-Scheduling'
     },
     {
         id: 27,
         img: Vet4,
         name: 'Vet-4',
-        title: 'Vet'
+        title: 'Appointment-Scheduling'
     },
 ];

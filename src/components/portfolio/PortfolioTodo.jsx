@@ -6,13 +6,13 @@ export const PortfolioTodo = () => {
   return (
     <div className='contenedor'>
     <div className='contenedor-titulo contenedor-titulo-aion'>
-        <h2>Get Gifs</h2>
+        <h2>To-Do List</h2>
     </div>
 
     <div className='contenedor-imgs-portfolio'>
 
         {
-            objetoImgPortfolioReact.filter(img => img.title === 'Todo').map(filtered => (
+            objetoImgPortfolioReact.filter(img => img.title === 'To-Do').map(filtered => (
 
                 <div key={filtered.id} className='contenido-portfolio-js'>
                     <img className='animate__animated animate__fadeInLeft' src={filtered.img} alt={filtered.name} />
