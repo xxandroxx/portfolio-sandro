@@ -2,6 +2,8 @@
 .contenedor-nav{
     display: flex;
     justify-content: start;
+
+    
     
 }
 
@@ -11,6 +13,7 @@
     left: 0;
     margin-right: 5rem;
     z-index: 9;
+
 }
 
 .contenido-nav{
@@ -45,11 +48,17 @@
     }
 }
 
+.contenido-nav-toggle{
+    a{
+        display: none;
+    }
+}
+
 .contenido-welcome{
     color: #fff;
     font-weight: 700;
     text-align: center;
-    margin: 2rem 0 5rem 0;
+    margin: 2rem 0 3rem 0;
 
     h5{
         font-size: 3rem;
@@ -62,6 +71,11 @@
 }
 
 
+
+.hamburguesa{
+   
+    display: none;
+}
 
 .contenido-outlet{
     width: 100%;

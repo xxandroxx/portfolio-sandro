@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { objetoImgPortfolioReact } from '../../data/imagenesPortfolio'
 
 export const PortfolioCripto = () => {
+
+    const [cargando, setCargando] = useState(false);
+   
   return (
     <div className='contenedor'>
     <div className='contenedor-titulo contenedor-titulo-aion'>

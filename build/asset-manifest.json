@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3ba98e7c.css",
-    "main.js": "/static/js/main.913e9080.js",
+    "main.css": "/static/css/main.11470535.css",
+    "main.js": "/static/js/main.452c1151.js",
     "static/media/ospj-1.PNG": "/static/media/ospj-1.c16a56f1211c1ed270bc.PNG",
     "static/media/juego-3.PNG": "/static/media/juego-3.82a8e00d479ac9aab48b.PNG",
     "static/media/juego-2.PNG": "/static/media/juego-2.821e99485ad6008fc0bb.PNG",
@@ -79,11 +79,11 @@
     "static/media/typescript.png": "/static/media/typescript.29073194eeda5803e7f3.png",
     "static/media/git.png": "/static/media/git.7d664489ed331806ddc8.png",
     "index.html": "/index.html",
-    "main.3ba98e7c.css.map": "/static/css/main.3ba98e7c.css.map",
-    "main.913e9080.js.map": "/static/js/main.913e9080.js.map"
+    "main.11470535.css.map": "/static/css/main.11470535.css.map",
+    "main.452c1151.js.map": "/static/js/main.452c1151.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ba98e7c.css",
-    "static/js/main.913e9080.js"
+    "static/css/main.11470535.css",
+    "static/js/main.452c1151.js"
   ]
 }
