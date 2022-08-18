@@ -1,0 +1,25 @@
+.body-ver{
+    background-color: #3b6b3b;
+    height: 100vh;
+}
+
+.contenedor-ver{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f5f9;
+    width: 100rem;
+    
+}
+
+
+.contenido-ver{
+    display: flex;
+    justify-content: space-around;
+    border: solid .1rem #000;
+    
+
+
+    h3{
+        font-size: 2rem;
+    }
+}

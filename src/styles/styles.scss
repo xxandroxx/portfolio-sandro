@@ -2,18 +2,10 @@
 @import './bases/global';
 
 //Componentes
-@import './components/header';
-@import './components/navbar';
-@import './components/portfolio';
-@import './components/home';
-@import './components/popup';
-@import './components/skillset';
-@import './components/portfolioScreen';
-@import './components/certificates';
-@import './components/aboutme';
-@import './components/contact';
-@import './components/portfolioJs';
-
-
-//Responsive
-@import './components/responsive/navbarResponsive';
+@import './components/loginScreen';
+@import './components/navbarScreen';
+@import './components/cardClientes';
+@import './components/registroScreen';
+@import './components/formulario';
+@import './components/homeScreen';
+@import './components/verUsuarios';

@@ -1,0 +1,61 @@
+.login-container{
+    height: 100vh;
+   
+
+}
+
+.header-login{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .btn-login a{
+        background-color: #3b6b3b;
+        border: .2rem solid #3b6b3b;
+        padding: 1rem 5rem;
+        border-radius: .5rem;
+        color: #fff;
+        transition: .3s;
+    }
+
+    .btn-login a:hover{
+        background-color: #f3f5f9;
+        color: #3b6b3b;
+        border: .2rem solid #3b6b3b;
+
+    }
+}
+
+
+.login-email{
+    margin: 15rem 0 3rem 0;
+
+    label{
+        margin-right: 5.5rem;
+    }
+}
+
+.login-password{
+    margin-bottom: 5rem;
+
+    
+    label{
+        margin-right: 2rem;
+    }
+}
+
+.validation-login-container{
+    text-align: center;
+    margin-top: 5rem;
+    p{
+        font-size: 1.5rem;
+        color: red;
+    }
+}

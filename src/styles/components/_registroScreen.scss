@@ -1,0 +1,25 @@
+.contenedor-registro h2{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    border-bottom: solid .1rem #000;
+    width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenido-registro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 30rem;
+}
+
+.contenido-registro-item{
+    border: solid .1rem #000;
+    border-radius: .5rem;
+    padding: 1rem;
+    width: 20rem;
+    text-align: center;
+}

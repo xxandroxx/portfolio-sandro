@@ -1,0 +1,33 @@
+.contenedor-formulario h2{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+.contenedor-formulario-item{
+    width: 70rem;
+    margin: 0 auto;
+}
+
+.contenido-form{
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+
+    label{
+        margin: 0 auto;
+    }
+    input{
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    button{
+        width: 20rem;
+        margin: 0 auto;
+    }
+}

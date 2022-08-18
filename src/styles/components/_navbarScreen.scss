@@ -1,0 +1,31 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3b6b3b;
+    border-bottom: solid .3rem #000;
+}
+
+.logo-nav{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-left: 5rem;
+}
+
+.navbar-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+    
+    a{
+        color: #f3f5f9;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    a:hover{
+        color: #000;
+    }
+}
