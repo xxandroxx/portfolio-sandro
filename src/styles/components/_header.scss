@@ -1,0 +1,52 @@
+.header-container {
+    background-color: #52565F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+
+    .logo {
+        background-color: #206D99;
+
+
+        h1 {
+            padding: 3rem 3rem 3rem 1rem;
+        }
+    }
+
+    .tarjetas-container {
+        width: 60rem;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 5rem;
+    }
+
+    .tarjeta-content {
+        border: solid .2rem #53CA62;
+        border-radius: 1rem;
+        padding: 2rem 2rem 1rem 2rem;
+        cursor: pointer;
+
+        h4{
+            text-align: center;
+        }
+
+        p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+        }
+
+        svg {
+            margin-right: 1rem;
+        }
+    }
+
+
+   
+}

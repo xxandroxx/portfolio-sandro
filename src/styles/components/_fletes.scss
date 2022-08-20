@@ -1,0 +1,74 @@
+.fletes-container{
+    margin-top: 20rem;
+   padding-left: 31rem;
+
+
+   h2{
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: solid .1rem #000;
+    width: 15rem;
+    margin: 0 auto;
+   }
+
+
+   .tarjeta-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2rem;
+    width: 90rem;
+    margin: 0 auto;
+    margin-top: 20rem;
+   }
+
+   .tarjeta-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40rem;
+    border-radius: 1rem;
+    padding-right: 2rem;
+    margin: 0 auto;
+    cursor: pointer;
+
+    a{
+        color: #fff;
+        font-size: 2.5rem;
+        padding: 3rem 2rem;
+        width: 100%;
+        text-transform: capitalize;
+    }
+   }
+
+   .agregar-flete{
+    background-color: #55cc65e2;
+   }
+
+   .agregar-flete:hover{
+    background-color: #55CC64;
+   }
+
+   .ver-flete{
+    background-color: #54a8fcde;
+   }
+
+   .ver-flete:hover{
+    background-color: #54A9FC;
+   }
+
+   .editar-flete{
+    background-color: #f4ae09d9;
+   }
+
+   .editar-flete:hover{
+    background-color: #F4AF09;
+   }
+
+   .borrar-flete{
+    background-color: #ef403dde;
+   }
+
+   .borrar-flete:hover{
+    background-color: #EF403D;
+   }
+}

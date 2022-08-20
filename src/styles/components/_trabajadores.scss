@@ -1,0 +1,106 @@
+.trabajadores-container {
+    margin-top: 20rem;
+    padding-left: 31rem;
+   
+
+    h2 {
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: solid .1rem #000;
+        width: 30rem;
+        margin: 0 auto;
+    }
+
+
+    .tarjeta-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        row-gap: 2rem;
+        width: 90rem;
+        height: 100%;
+        margin: 0 auto;
+        margin-top: 20rem;
+    }
+
+    .tarjeta-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 40rem;
+        border-radius: 1rem;
+        padding-right: 2rem;
+        margin: 0 auto;
+        cursor: pointer;
+
+        a {
+            color: #fff;
+            font-size: 2.5rem;
+            padding: 3rem 2rem;
+            width: 100%;
+            text-transform: capitalize;
+        }
+    }
+
+    .agregar-trabajador {
+        background-color: #55cc65e2;
+    }
+
+    .agregar-trabajador:hover {
+        background-color: #55CC64;
+    }
+
+    .ver-trabajador {
+        background-color: #54a8fcde;
+    }
+
+    .ver-trabajador:hover {
+        background-color: #54A9FC;
+    }
+
+    .editar-trabajador {
+        background-color: #f4ae09c7;
+    }
+
+    .editar-trabajador:hover {
+        background-color: #F4AF09;
+    }
+
+    .borrar-trabajador {
+        background-color: #ef403dde;
+    }
+
+    .borrar-trabajador:hover {
+        background-color: #EF403D;
+    }
+
+    .licencia-trabajador {
+        background-color: #7e91a0dd;
+    }
+
+    .licencia-trabajador:hover{
+        background-color: #7E91A0;
+    }
+
+    .vacaciones-trabajador {
+        background-color: #f03a8fd0;
+    }
+
+    .vacaciones-trabajador:hover{
+        background-color: #F03A8F;
+    }
+
+    .horas-extra-trabajador{
+        background-color: #57d1e6ca;
+    }
+    .horas-extra-trabajador:hover{
+        background-color: #57D1E6;
+    }
+
+    .ausencias-trabajador{
+        background-color: #7149c6ce;
+    }
+    .ausencias-trabajador:hover{
+        background-color: #7149C6;
+    }
+}
