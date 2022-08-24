@@ -18,11 +18,10 @@
 }
 
 .form-registro-cliente-container{
-    margin: 0 auto;
-    margin-top: 5rem;
+    margin: 5rem auto 0 auto;
     height: 30rem;
     display: flex;
-    // justify-content: center;
+    justify-content: center;
     flex-wrap: wrap;
     width: 80rem;
 }
@@ -49,6 +48,8 @@
         border-radius: .5rem;
         // padding: .5rem;
         font-size: 1.8rem;
+        
+        
     }
 }
 

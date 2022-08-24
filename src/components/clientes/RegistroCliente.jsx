@@ -14,11 +14,12 @@ const RegistroCliente = () => {
        
     }
 
-
+    
     useEffect(()=> {
         obtenerPais();
     }, []);
 
+   
     return (
         <div className='registro-cliente-container'>
 
