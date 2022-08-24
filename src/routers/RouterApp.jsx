@@ -27,7 +27,7 @@ import TrabajadoresScreen from '../components/trabajadores/TrabajadoresScreen'
 export const RouterApp = () => {
   return (
 
-    <div>
+    <div className='router-container'>
         <HeaderScreen />
         <NavbarScreen />
 

@@ -31,7 +31,7 @@ const RegistroCliente = () => {
                     </div>
 
                     <div className='form-registro-content'>
-                        <label htmlFor="pais_cliente">País</label>
+                        <label htmlFor="pais_cliente">País:</label>
                         <select>
                             <option value="">Seleccione País</option>
                             <option value="">Taiwan</option>

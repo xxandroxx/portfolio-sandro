@@ -1,10 +1,9 @@
 
-
 .navbar-container-aside{
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
+    min-height: 100%;
     padding-top: 12.5rem;
     z-index: 810;
     width: 23rem;
@@ -24,7 +23,7 @@
         text-transform: capitalize;
         font-weight: 500;
         padding: 2rem;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
 
     }
 

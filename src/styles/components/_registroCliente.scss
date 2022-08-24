@@ -20,42 +20,35 @@
 .form-registro-cliente-container{
     margin: 0 auto;
     margin-top: 10rem;
-    padding: 0 30rem;
-    width: 170rem;
     height: 30rem;
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     flex-wrap: wrap;
+    width: 80rem;
 }
 
 
 .form-registro-content{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    // align-items: flex-start;
     margin-right: 3rem;
 
     label{
-        font-size: 2.5rem;
-        margin-bottom: 1rem;
+        font-size: 1.8rem;
     }
 
     input{
         border: solid .1rem #000;
         border-radius: .5rem;
-        font-size: 2rem;
-        padding: .5rem;
-    }
-
-    input[type=email]{
-       
-       
+        padding-left: .5rem;
+        margin-bottom: 1rem;
     }
 
     select{
         border-radius: .5rem;
-        padding: .5rem;
-        font-size: 2rem;
+        // padding: .5rem;
+        font-size: 1.8rem;
     }
 }
 
@@ -63,12 +56,12 @@
 .form-button-cliente{
     
     button{
-        padding: 2rem 4rem;
+        padding: 1rem 2rem;
         border-radius: .5rem;
         background-color: #50A9FD;
         color: #fff;
         font-weight: 700;
-        font-size: 2rem;
+        font-size: 1.5rem;
         transition: .5s;
     }
 
