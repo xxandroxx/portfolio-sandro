@@ -5,7 +5,9 @@ import { ClientesHome } from '../components/clientes/ClientesHome'
 import RegistroCliente from '../components/clientes/RegistroCliente'
 import { VerClientes, VerClientesLista } from '../components/clientes/VerClientesLista'
 import DeudoresScreen from '../components/deudores/DeudoresScreen'
+import { DivisasScreen } from '../components/divisas/DivisasScreen'
 import { FletesHome } from '../components/fletes/FletesHome'
+import { RegistroFlete } from '../components/fletes/RegistroFlete'
 import { VerFletesLista } from '../components/fletes/VerFletesLista'
 import HeaderScreen from '../components/header/HeaderScreen'
 import { HomeScreen } from '../components/home/HomeScreen'
@@ -39,7 +41,7 @@ export const RouterApp = () => {
         <Route path='/registrar' element={<RegistroUsurario />} />
         <Route path='/registrar/proveedor' element={<RegistroProveedor />} />
         <Route path='/registrar/cliente' element={<RegistroCliente />} />
-        <Route path='/registrar/flete' element={<RegistrarFlete />} />
+        <Route path='/registrar/flete' element={<RegistroFlete />} />
         <Route path='/clientes' element={<ClientesHome />} />
         <Route path='/proveedores' element={<ProveedoresHome />} />
         <Route path='/fletes' element={<FletesHome />} />
@@ -48,6 +50,7 @@ export const RouterApp = () => {
         <Route path='/fletes/ver-fletes' element={<VerFletesLista />} />
         <Route path='/deudores' element={<DeudoresScreen />} />
         <Route path='/trabajadores' element={<TrabajadoresScreen />} />
+        <Route path='/divisas' element={<DivisasScreen />} />
 
 
       </Routes>

@@ -1,6 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useEffect } from 'react';
 
 const RegistroCliente = () => {
+
+    const [listaPaises, setListaPaises] = useState([]);
+
+    const obtenerPais = async () => {
+        const url = 'https://restcountries.com/v2/all';
+        const resp = await fetch(url)
+        const data = await resp.json()
+
+        setListaPaises(data);
+       
+    }
+
+
+    useEffect(()=> {
+        obtenerPais();
+    }, []);
+
     return (
         <div className='registro-cliente-container'>
 
@@ -33,12 +51,13 @@ const RegistroCliente = () => {
                     <div className='form-registro-content'>
                         <label htmlFor="pais_cliente">País:</label>
                         <select>
-                            <option value="">Seleccione País</option>
-                            <option value="">Taiwan</option>
-                            <option value="">Corea del sur</option>
-                            <option value="">Canadá</option>
-                            <option value="">China</option>
-                            <option value="">Agregar nuevo país</option>
+                            <option value="">Seleccione País...</option>
+                            {
+                                listaPaises.map(lista => (
+                                    <option key={lista.name} value="">{lista.name}</option>
+                                ))
+                            }
+                          
                         </select>
                     </div>
 
