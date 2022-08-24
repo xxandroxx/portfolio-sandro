@@ -1,11 +1,13 @@
 
 
 .navbar-container-aside{
-    position: fixed;
-    top: 12.5rem;
+    position: absolute;
+    top: 0;
     left: 0;
     height: 100%;
-    width: 31rem;
+    padding-top: 12.5rem;
+    z-index: 810;
+    width: 23rem;
     background-color: #27313A;
     border-bottom: solid .3rem #000;
 }
