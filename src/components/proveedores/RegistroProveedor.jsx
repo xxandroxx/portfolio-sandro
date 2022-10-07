@@ -82,6 +82,21 @@ const RegistroProveedor = () => {
                             </div>
                         </div>
 
+                        <div className='form-registro-content radio_opcion_proveedor radio_deuda_proveedor'>
+                    <label>Tiene deudas?</label>
+                    <div className='radio_opcion_container'>
+                        <div className='radio_opcion_content'>
+                            <label>Si</label>
+                            <input type="radio" name="opcion_deuda" id="opcion_deuda_si" value={tieneDeuda} onChange={handleDeudaTrue} />
+                        </div>
+                        <div className='radio_opcion_content'>
+                            <label>No</label>
+                            <input type="radio" name="opcion_deuda" id="opcion_deuda_no" value={tieneDeuda} onChange={handleDeudaFalse} />
+                        </div>
+
+                    </div>
+                </div>
+
 
                     </div>
 
@@ -142,27 +157,14 @@ const RegistroProveedor = () => {
                 </div>)}
 
 
-                <div className='form-registro-content radio_opcion_proveedor'>
-                    <label>Tiene deudas?</label>
-                    <div className='radio_opcion_container'>
-                        <div className='radio_opcion_content'>
-                            <label>Si</label>
-                            <input type="radio" name="opcion_deuda" id="opcion_deuda_si" value={tieneDeuda} onChange={handleDeudaTrue} />
-                        </div>
-                        <div className='radio_opcion_content'>
-                            <label>No</label>
-                            <input type="radio" name="opcion_deuda" id="opcion_deuda_no" value={tieneDeuda} onChange={handleDeudaFalse} />
-                        </div>
-
-                    </div>
-                </div>
+               
 
 
                 {tieneDeuda && (<div className='legend-bancarios-proveedor'>
                     <h3>Datos Deuda</h3>
                     <div className='form-registro-proveedor-container'>
 
-                        <div className='form-registro-content'>
+                        <div className='form-registro-deuda form-registro-content'>
                             <label htmlFor="deuda_proveedor">Deuda:</label>
                             <input type="text" id='deuda_proveedor' placeholder='Cantidad' />
                         </div>

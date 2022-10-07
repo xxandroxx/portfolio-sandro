@@ -96,6 +96,10 @@
     }
 }
 
+.radio_deuda_proveedor{
+    margin-bottom: 3rem;
+}
+
 
 .form-button-proveedor{
     
@@ -112,4 +116,10 @@
     button:hover{
         background-color: #55CC64;
     }
+}
+
+.form-registro-deuda{
+    width: 100%;
+    margin: 0 auto;
+    grid-column: 2;
 }
