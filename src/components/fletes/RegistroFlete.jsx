@@ -27,7 +27,7 @@ export const RegistroFlete = () => {
 
                     <div className='form-registro-content'>
                         <label htmlFor="correo_flete">Correo:</label>
-                        <input type="email" name="correo_cliente" id="correo_flete" placeholder='Correo flete' />
+                        <input type="email" name="correo_flete" id="correo_flete" placeholder='Correo flete' />
                     </div>
 
                     <div className='form-registro-content'>

@@ -3,14 +3,21 @@ import React, { useState } from 'react';
 const RegistroProveedor = () => {
 
     const [cuentaBancaria, setCuentaBancaria] = useState(false);
+    const [tieneDeuda, setTieneDeuda] = useState(false);
 
     const handleRadioFalse = () => {
         setCuentaBancaria(false);
-        console.log(cuentaBancaria);
     }
     const handleRadioTrue = () => {
         setCuentaBancaria(true);
-        console.log(cuentaBancaria);
+    }
+
+    const handleDeudaFalse = () => {
+        setTieneDeuda(false);
+    }
+
+    const handleDeudaTrue = () => {
+        setTieneDeuda(true);
     }
 
     return (
@@ -63,14 +70,14 @@ const RegistroProveedor = () => {
                         <div className='form-registro-content radio_opcion_proveedor'>
                             <label>Tiene cuenta bancaria?</label>
                             <div className='radio_opcion_container'>
-                            <div className='radio_opcion_content'>
-                                <label>Si</label>
-                                <input type="radio" name="opcion_bancaria" id="opcion_bancaria_si" value={cuentaBancaria} onChange={handleRadioTrue} />
-                            </div>
-                            <div className='radio_opcion_content'>
-                                <label>No</label>
-                                <input type="radio" name="opcion_bancaria" id="opcion_bancaria_no" value={cuentaBancaria} onChange={handleRadioFalse}/>
-                            </div>
+                                <div className='radio_opcion_content'>
+                                    <label>Si</label>
+                                    <input type="radio" name="opcion_bancaria" id="opcion_bancaria_si" value={cuentaBancaria} onChange={handleRadioTrue} />
+                                </div>
+                                <div className='radio_opcion_content'>
+                                    <label>No</label>
+                                    <input type="radio" name="opcion_bancaria" id="opcion_bancaria_no" value={cuentaBancaria} onChange={handleRadioFalse} />
+                                </div>
 
                             </div>
                         </div>
@@ -133,7 +140,38 @@ const RegistroProveedor = () => {
                     </div>
 
                 </div>)}
-                
+
+
+                <div className='form-registro-content radio_opcion_proveedor'>
+                    <label>Tiene deudas?</label>
+                    <div className='radio_opcion_container'>
+                        <div className='radio_opcion_content'>
+                            <label>Si</label>
+                            <input type="radio" name="opcion_deuda" id="opcion_deuda_si" value={tieneDeuda} onChange={handleDeudaTrue} />
+                        </div>
+                        <div className='radio_opcion_content'>
+                            <label>No</label>
+                            <input type="radio" name="opcion_deuda" id="opcion_deuda_no" value={tieneDeuda} onChange={handleDeudaFalse} />
+                        </div>
+
+                    </div>
+                </div>
+
+
+                {tieneDeuda && (<div className='legend-bancarios-proveedor'>
+                    <h3>Datos Deuda</h3>
+                    <div className='form-registro-proveedor-container'>
+
+                        <div className='form-registro-content'>
+                            <label htmlFor="deuda_proveedor">Deuda:</label>
+                            <input type="text" id='deuda_proveedor' placeholder='Cantidad' />
+                        </div>
+
+                    </div>
+                </div>
+                )}
+
+
 
 
 
