@@ -27,7 +27,7 @@ export const VerClientesLista = () => {
         <div>
             <NavbarScreen />
 
-            <table className="table mt-5">
+            <table className="table mt-5 ver-clientes-contenedor">
                 <thead>
                     <tr>
                         <th scope="col">Nombre</th>

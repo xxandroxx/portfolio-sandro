@@ -34,8 +34,8 @@ export const RouterApp = () => {
         <NavbarScreen />
 
       <Routes>
-        <Route path='/login' element={<LoginScreen />} />
-        <Route path='/' element={<HomeScreen />} />
+        <Route path='/' element={<LoginScreen />} />
+        <Route path='/home' element={<HomeScreen />} />
 
         {/* <Route path='*' element={<Navigate to='/' />} /> */}
         <Route path='/registrar' element={<RegistroUsurario />} />
@@ -43,6 +43,7 @@ export const RouterApp = () => {
         <Route path='/registrar/cliente' element={<RegistroCliente />} />
         <Route path='/registrar/flete' element={<RegistroFlete />} />
         <Route path='/clientes' element={<ClientesHome />} />
+        <Route path='/ver-clientes' element={<VerClientesLista />} />
         <Route path='/proveedores' element={<ProveedoresHome />} />
         <Route path='/fletes' element={<FletesHome />} />
         <Route path='/clientes/ver-clientes' element={<VerClientesLista />} />
