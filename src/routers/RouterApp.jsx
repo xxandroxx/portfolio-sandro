@@ -17,11 +17,6 @@ import { NavbarScreen } from '../components/navbar/NavbarScreen'
 import { ProveedoresHome } from '../components/proveedores/ProveedoresHome'
 import RegistroProveedor from '../components/proveedores/RegistroProveedor'
 import { VerProveedoresLista } from '../components/proveedores/VerProveedoresLista'
-import { RegistrarCliente } from '../components/registroUsuario/RegistrarCliente'
-import { RegistrarFlete } from '../components/registroUsuario/RegistrarFlete'
-import { RegistrarProveedor } from '../components/registroUsuario/RegistrarProveedor'
-import { RegistroUsurario } from '../components/registroUsuario/RegistroUsurario'
-import { VerProveedores } from '../components/tarjetas/VerProveedores'
 import { PerfilTrabajador } from '../components/trabajadores/PerfilTrabajador'
 import { RegistrarTrabajador } from '../components/trabajadores/RegistrarTrabajador'
 import TrabajadoresScreen from '../components/trabajadores/TrabajadoresScreen'
@@ -42,7 +37,6 @@ export const RouterApp = () => {
         <Route path='/home' element={<HomeScreen />} />
 
         {/* <Route path='*' element={<Navigate to='/' />} /> */}
-        <Route path='/registrar' element={<RegistroUsurario />} />
         <Route path='/registrar/proveedor' element={<RegistroProveedor />} />
         <Route path='/registrar/cliente' element={<RegistroCliente />} />
         <Route path='/registrar/flete' element={<RegistroFlete />} />
