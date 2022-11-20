@@ -70,4 +70,21 @@
    .borrar-proveedor:hover{
     background-color: #EF403D;
    }
+
+}
+
+
+.table{
+    text-align: center;
+}
+
+
+.ver-banco-popup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 7rem;
+    margin: 0 auto;
+    cursor: pointer;
+    color: blue;
 }
