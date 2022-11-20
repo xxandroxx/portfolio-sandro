@@ -22,6 +22,7 @@ import { RegistrarFlete } from '../components/registroUsuario/RegistrarFlete'
 import { RegistrarProveedor } from '../components/registroUsuario/RegistrarProveedor'
 import { RegistroUsurario } from '../components/registroUsuario/RegistroUsurario'
 import { VerProveedores } from '../components/tarjetas/VerProveedores'
+import { PerfilTrabajador } from '../components/trabajadores/PerfilTrabajador'
 import { RegistrarTrabajador } from '../components/trabajadores/RegistrarTrabajador'
 import TrabajadoresScreen from '../components/trabajadores/TrabajadoresScreen'
 import { VerTrabajadores } from '../components/trabajadores/VerTrabajadores'
@@ -57,6 +58,7 @@ export const RouterApp = () => {
         <Route path='/divisas' element={<DivisasScreen />} />
         <Route path='/trabajador/registro-trabajador' element={<RegistrarTrabajador />} />
         <Route path='/trabajador/ver-trabajadores' element={<VerTrabajadores />} />
+        <Route path='/trabajador/perfil-trabajador' element={<PerfilTrabajador />} /> 
 
 
 
