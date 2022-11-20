@@ -25,7 +25,7 @@ export const VerClientesLista = () => {
     }, []);
     return (
         <div>
-            <NavbarScreen />
+            
 
             <table className="table mt-5 ver-clientes-contenedor">
                 <thead>
@@ -47,7 +47,6 @@ export const VerClientesLista = () => {
                             <td>{cli.correo}</td>
                             <td>{cli.pais}</td>
                             <td>{cli.ciudad}</td>
-                            <td>{cli.direccion}</td>
                         </tr>
                     ))}
                 </tbody>
