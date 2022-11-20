@@ -34,7 +34,6 @@ export const VerProveedoresLista = () => {
 
     return (
         <div>
-            <NavbarScreen />
 
             <table className="table mt-5">
                 <thead>

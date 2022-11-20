@@ -1,5 +1,4 @@
 .deudores-container{
-    margin-top: 5rem;
    padding-left: 31rem;
 
 
@@ -71,4 +70,22 @@
    .borrar-deudor:hover{
     background-color: #EF403D;
    }
+}
+
+.contenedor-deudores{
+    margin-top: 10rem;
+    padding-left: 31rem;
+
+    h2 {
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: solid .1rem #000;
+        width: 20rem;
+        margin: 0 auto;
+        margin-bottom: 5rem;
+    }
+
+    table{
+        margin-left: 0;
+    }
 }

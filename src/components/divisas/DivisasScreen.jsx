@@ -29,7 +29,7 @@ export const DivisasScreen = () => {
         <div className='divisas-container'>
             <h2>Divisas</h2>
 
-            <table className="table mt-5" style={{width: '90%'}}>
+            <table className="table" style={{width: '90%'}}>
                 <thead>
                     <tr>
                         <th scope="col">Nombre</th>

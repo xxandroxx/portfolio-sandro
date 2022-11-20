@@ -1,0 +1,134 @@
+
+
+.contenedor-perfil-trabajador{
+    margin-left: 25rem;
+    margin-top: 10rem;
+
+    .contenedor-titulo-foto-trabajador{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo-perfil-trabajador{
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    .foto-perfil-trabajador{
+        margin: 0 auto;
+        margin-top: 3rem;
+        img{
+            width: 20rem;
+            border-radius: 50%;
+        }
+    }
+
+    .contenedor-informacion-personal-trabajador{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5rem;
+
+        h4{
+            border-bottom: dashed .2rem #000;
+            margin-bottom: 3rem;
+            width: 25rem;
+            text-align: center;
+        }
+
+        .contenedor-formulario-perfil-trabajador{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 80rem;
+
+            input{
+                margin-bottom: 2rem;
+            }
+        }
+    }
+
+    .contenedor-licencias{
+        h4{
+            text-align: center;
+            border-bottom: dashed .2rem #000;
+            width: 15rem;
+            margin: 0 auto;
+            margin-top: 7rem;
+            margin-bottom: 5rem;
+        }
+
+        .table-licencia{
+            margin: 0 auto;
+            width: 110rem;
+            width: 110rem;
+        }
+    }
+
+    .contenedor-vacaciones{
+        h4{
+            text-align: center;
+            border-bottom: dashed .2rem #000;
+            width: 15rem;
+            margin: 0 auto;
+            margin-top: 7rem;
+            margin-bottom: 5rem;
+        }
+
+        .table-vacaciones{
+            margin: 0 auto;
+            width: 110rem;
+        }
+    }
+
+    .contenedor-horas-extra{
+        h4{
+            text-align: center;
+            border-bottom: dashed .2rem #000;
+            width: 15rem;
+            margin: 0 auto;
+            margin-top: 7rem;
+            margin-bottom: 5rem;
+        }
+
+        .table-horas-extra{
+            margin: 0 auto;
+            width: 110rem;
+        }
+    }
+
+    .contenedor-bonos{
+        h4{
+            text-align: center;
+            border-bottom: dashed .2rem #000;
+            width: 15rem;
+            margin: 0 auto;
+            margin-top: 7rem;
+            margin-bottom: 5rem;
+        }
+
+        .table-bonos{
+            margin: 0 auto;
+            width: 110rem;
+        }
+    }
+
+    .contenedor-ausencias{
+        margin-bottom: 10rem;
+        h4{
+            text-align: center;
+            border-bottom: dashed .2rem #000;
+            width: 15rem;
+            margin: 0 auto;
+            margin-top: 7rem;
+            margin-bottom: 5rem;
+        }
+
+        .table-ausencias{
+            margin: 0 auto;
+            width: 110rem;
+        }
+    }
+
+}

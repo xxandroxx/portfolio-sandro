@@ -35,10 +35,10 @@ const DeudoresScreen = () => {
     }
 
     return (
-        <div className='divisas-container'>
-            <h2>Divisas</h2>
+        <div className='contenedor-deudores'>
+            <h2>Deudores</h2>
 
-            <table className="table mt-5" style={{width: '90%'}}>
+            <table className="table" style={{width: '90%'}}>
                 <thead>
                     <tr>
                         <th scope="col">Nombre</th>
