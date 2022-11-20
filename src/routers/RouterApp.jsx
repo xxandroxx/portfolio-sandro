@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { Routes, Route, Navigate } from 'react-router-dom'
+import { Base } from '../components/Base'
 import { ClientesHome } from '../components/clientes/ClientesHome'
 import RegistroCliente from '../components/clientes/RegistroCliente'
 import { VerClientes, VerClientesLista } from '../components/clientes/VerClientesLista'
@@ -52,6 +53,7 @@ export const RouterApp = () => {
         <Route path='/deudores' element={<DeudoresScreen />} />
         <Route path='/trabajadores' element={<TrabajadoresScreen />} />
         <Route path='/divisas' element={<DivisasScreen />} />
+        <Route path='/config/database.php' element={<Base />} />
 
 
       </Routes>

@@ -36,7 +36,6 @@ export const VerClientesLista = () => {
                         <th scope="col">Correo</th>
                         <th scope="col">País</th>
                         <th scope="col">Ciudad</th>
-                        <th scope="col">Dirección</th>
                     </tr>
                 </thead>
                 <tbody>
