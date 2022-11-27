@@ -37,6 +37,7 @@ export const VerClientesLista = () => {
                         <th scope="col">Ciudad</th>
                     </tr>
                 </thead>
+                
                 <tbody>
                     {listaClientes.map(cli => (
                         <tr>
