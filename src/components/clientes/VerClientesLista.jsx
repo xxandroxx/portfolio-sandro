@@ -7,22 +7,16 @@ export const VerClientesLista = () => {
 
     const [listaClientes, setListaClientes] = useState([]);
 
-    useEffect(() => {
+  const  cargarDatos = () => {
+        fetch("http://localhost/ospj_api/api.php")
+        .then(respuesta=>respuesta.json())
+        .then((datosRespuesta)=>{console.log(datosRespuesta)})
+        .catch(console.log())
+    }
 
-        const obtenerDatos = async () => {
-            const datosClientes = await getDocs(collection(db, 'clientes'));
-            const listado = [];
-            datosClientes.forEach((doc) => {
-                listado.push({ ...doc.data() });
-            })
+   
+    cargarDatos();
 
-
-            setListaClientes(listado);
-        }
-
-        obtenerDatos();
-
-    }, []);
     return (
         <div>
             
