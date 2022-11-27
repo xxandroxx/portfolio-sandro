@@ -12,6 +12,9 @@ export const VerClientesLista = () => {
         .then(respuesta=>respuesta.json())
         .then((datosRespuesta)=>{console.log(datosRespuesta)})
         .catch(console.log())
+
+
+        setListaClientes({...listaClientes, datosRespuesta});
     }
 
    
