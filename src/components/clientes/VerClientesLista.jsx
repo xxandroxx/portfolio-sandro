@@ -7,23 +7,22 @@ export const VerClientesLista = () => {
 
     const [listaClientes, setListaClientes] = useState([]);
 
-  const  cargarDatos = () => {
-        fetch("http://localhost/ospj_api/api.php")
-        .then(respuesta=>respuesta.json())
-        .then((datosRespuesta)=>{ setListaClientes(datosRespuesta)})
-        .catch(console.log())
-
-
+    const cargarDatos = () => {
+        fetch("https://localhost/ospj_api/api.php")
+            .then(respuesta => respuesta.json())
+            .then((datosRespuesta) => { setListaClientes(datosRespuesta) })
+            .catch(console.log())
 
     }
-    
     useEffect(() => {
         cargarDatos();
-    },[])
+    }, [])
+
+
 
     return (
         <div>
-            
+
 
             <table className="table mt-5 ver-clientes-contenedor">
                 <thead>
@@ -36,6 +35,7 @@ export const VerClientesLista = () => {
                         <th scope="col">Ciudad</th>
                     </tr>
                 </thead>
+
                 <tbody>
                     {listaClientes.map(cli => (
                         <tr>
