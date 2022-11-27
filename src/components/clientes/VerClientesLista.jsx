@@ -7,22 +7,24 @@ export const VerClientesLista = () => {
 
     const [listaClientes, setListaClientes] = useState([]);
 
-  const  cargarDatos = () => {
-        fetch("http://localhost/ospj_api/api.php")
-        .then(respuesta=>respuesta.json())
-        .then((datosRespuesta)=>{console.log(datosRespuesta)})
-        .catch(console.log())
+    const cargarDatos = () => {
+        fetch("https://dummyjson.com/products/")
+            .then(respuesta => respuesta.json())
+            .then((datosRespuesta) => { setListaClientes(datosRespuesta.products) })
+            .catch(console.log())
 
-
-        setListaClientes({...listaClientes, datosRespuesta});
     }
 
-   
-    cargarDatos();
+
+    useEffect(() => {
+        cargarDatos();
+    }, [])
+
+
 
     return (
         <div>
-            
+
 
             <table className="table mt-5 ver-clientes-contenedor">
                 <thead>
@@ -38,8 +40,8 @@ export const VerClientesLista = () => {
                 <tbody>
                     {listaClientes.map(cli => (
                         <tr>
-                            <td>{cli.nombre}</td>
-                            <td>{cli.apellido}</td>
+                            <td>{cli.id}</td>
+                            <td>{cli.title}</td>
                             <td>{cli.telefono}</td>
                             <td>{cli.correo}</td>
                             <td>{cli.pais}</td>
