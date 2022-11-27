@@ -1,7 +1,6 @@
 import React from 'react'
 
 import { Routes, Route, Navigate } from 'react-router-dom'
-import { Base } from '../components/Base'
 import { ClientesHome } from '../components/clientes/ClientesHome'
 import RegistroCliente from '../components/clientes/RegistroCliente'
 import { VerClientes, VerClientesLista } from '../components/clientes/VerClientesLista'
@@ -29,8 +28,8 @@ export const RouterApp = () => {
   return (
 
     <div className='router-container'>
-        <HeaderScreen />
-        <NavbarScreen />
+      <HeaderScreen />
+      <NavbarScreen />
 
       <Routes>
         <Route path='/' element={<LoginScreen />} />
@@ -52,10 +51,7 @@ export const RouterApp = () => {
         <Route path='/divisas' element={<DivisasScreen />} />
         <Route path='/trabajador/registro-trabajador' element={<RegistrarTrabajador />} />
         <Route path='/trabajador/ver-trabajadores' element={<VerTrabajadores />} />
-        <Route path='/trabajador/perfil-trabajador' element={<PerfilTrabajador />} /> 
-
-
-
+        <Route path='/trabajador/perfil-trabajador' element={<PerfilTrabajador />} />
       </Routes>
     </div>
   )
