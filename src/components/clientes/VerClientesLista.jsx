@@ -10,15 +10,15 @@ export const VerClientesLista = () => {
   const  cargarDatos = () => {
         fetch("http://localhost/ospj_api/api.php")
         .then(respuesta=>respuesta.json())
-        .then((datosRespuesta)=>{console.log(datosRespuesta)})
+        .then((datosRespuesta)=>{ setListaClientes(datosRespuesta)})
         .catch(console.log())
 
 
-        setListaClientes({...listaClientes, datosRespuesta});
-    }
 
-   
-    cargarDatos();
+    }
+    useEffect(() => {
+        cargarDatos();
+    },[])
 
     return (
         <div>
@@ -38,12 +38,12 @@ export const VerClientesLista = () => {
                 <tbody>
                     {listaClientes.map(cli => (
                         <tr>
-                            <td>{cli.nombre}</td>
-                            <td>{cli.apellido}</td>
-                            <td>{cli.telefono}</td>
-                            <td>{cli.correo}</td>
-                            <td>{cli.pais}</td>
-                            <td>{cli.ciudad}</td>
+                            <td>{cli.nombre_cliente}</td>
+                            <td>{cli.apellido_cliente}</td>
+                            <td>{cli.telefono_cliente}</td>
+                            <td>{cli.correo_cliente}</td>
+                            <td>{cli.pais_cliente}</td>
+                            <td>{cli.ciudad_cliente}</td>
                         </tr>
                     ))}
                 </tbody>
