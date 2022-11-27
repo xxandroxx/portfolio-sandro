@@ -8,9 +8,9 @@ export const VerClientesLista = () => {
     const [listaClientes, setListaClientes] = useState([]);
 
     const cargarDatos = () => {
-        fetch("https://dummyjson.com/products/")
+        fetch("https://localhost/ospj_api/api.php")
             .then(respuesta => respuesta.json())
-            .then((datosRespuesta) => { setListaClientes(datosRespuesta.products) })
+            .then((datosRespuesta) => { setListaClientes(datosRespuesta) })
             .catch(console.log())
 
     }
@@ -37,16 +37,16 @@ export const VerClientesLista = () => {
                         <th scope="col">Ciudad</th>
                     </tr>
                 </thead>
-                
+
                 <tbody>
                     {listaClientes.map(cli => (
                         <tr>
-                            <td>{cli.id}</td>
-                            <td>{cli.title}</td>
-                            <td>{cli.telefono}</td>
-                            <td>{cli.correo}</td>
-                            <td>{cli.pais}</td>
-                            <td>{cli.ciudad}</td>
+                            <td>{cli.nombre_cliente}</td>
+                            <td>{cli.apellido_cliente}</td>
+                            <td>{cli.telefono_cliente}</td>
+                            <td>{cli.correo_cliente}</td>
+                            <td>{cli.pais_cliente}</td>
+                            <td>{cli.ciudad_cliente}</td>
                         </tr>
                     ))}
                 </tbody>
